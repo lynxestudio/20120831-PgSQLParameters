@@ -30,23 +30,13 @@ DbCommand tiene la propiedad <a href="http://msdn.microsoft.com/en-us/library/sy
 	<b>Value:</b> Obtiene u establece el valor del parámetro.
 </ul>
 </p>
-<p align="justify">Como ejemplo un programa C# que muestra el uso de los comandos parametrizados llamando a una función de PL/pgSQL en PostgreSQL que realiza una concatenación de un número aleatorio, el año actual y el parámetro de entrada para crear un número distinto cada vez que se ejecute.<br />El código PL/pgsql de la función es el siguiente:
+<p align="justify">Como ejemplo un programa C# que muestra el uso de los comandos parametrizados llamando a una función de PL/pgSQL en PostgreSQL que realiza una concatenación de un número aleatorio, el año actual y el parámetro de entrada para crear un número distinto cada vez que se ejecute:
 </p>
-<!--Code createrefnum-->
-<div>
-<IMG src="picture_library/sp/createrefnum.png" border="0">
-</div>
-<!--Code-->
 <br /><div>El resultado de la ejecución de la función es:</div><br />
 <div>
 <IMG src="picture_library/sp/sp1.png" border="0">
 </div>
 <p align="justify">A continuación un ejemplo en C# en donde se muestra el uso de los parámetros ejecutando la función anterior con su parámetro de entrada (input) y recibiendo el valor de retorno.</p>
-<!--Code Sprocedure -->
-<div>
-<IMG src="picture_library/sp/Sprocedure.png" border="0">
-</div>
-<!--Code Sprocedure-->
 <p>Este ejemplo en MonoDevelop puede construirse como una aplicación de consola, agregando las refrencias al ensamblado <a href="http://npgsql.projects.postgresql.org/">Npgsql</a>, como se muestra en la siguiente imagen:</p><br />
 <div>
 <IMG src="picture_library/sp/sp2.png" border="0">

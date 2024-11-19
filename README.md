@@ -34,18 +34,18 @@ DbCommand tiene la propiedad <a href="http://msdn.microsoft.com/en-us/library/sy
 </p>
 <br /><div>El resultado de la ejecución de la función es:</div><br />
 <div>
-<IMG src="picture_library/sp/sp1.png" border="0">
+<IMG src="images/sp1.png" border="0">
 </div>
 <p align="justify">A continuación un ejemplo en C# en donde se muestra el uso de los parámetros ejecutando la función anterior con su parámetro de entrada (input) y recibiendo el valor de retorno.</p>
 <p>Este ejemplo en MonoDevelop puede construirse como una aplicación de consola, agregando las refrencias al ensamblado <a href="http://npgsql.projects.postgresql.org/">Npgsql</a>, como se muestra en la siguiente imagen:</p><br />
 <div>
-<IMG src="picture_library/sp/sp2.png" border="0">
+<IMG src="images/sp2.png" border="0">
 </div>
 <div>La salida de la ejecucción de este programa es:</div><br />
 <div>
-<IMG src="picture_library/sp/sp3.png" border="0">
+<IMG src="images/sp3.png" border="0">
 </div>
 <div>Si se ejecuta desde MonoDevelop la salida es:</div>
 <div>
-<IMG src="picture_library/sp/sp4.png" border="0">
+<IMG src="images/sp4.png" border="0">
 </div>
